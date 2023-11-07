@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4d4d4;
+    margin: 1rem auto;
+    width: 650px;
+    height: 30rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); 
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.up{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.username{
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin: 1rem 6rem;
+    padding: 8px 16px;
+}
